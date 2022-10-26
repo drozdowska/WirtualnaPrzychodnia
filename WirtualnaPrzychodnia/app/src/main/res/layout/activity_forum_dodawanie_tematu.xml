@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForumDodawanieTematu"
+    android:background="@drawable/blekitne"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="409dp"
+                android:layout_height="209dp"
+                android:layout_marginTop="36dp"
+                app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:inputType="textCapSentences|textMultiLine"
+                android:text="Kliknij powyższy symbol, aby wgrać zdjęcie" />
+
+            <Button
+                android:id="@+id/wczytajzdj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wczytaj zdjęcie..." />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/tytul"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="Zadaj pytanie"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/tresc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Opisz dokładnie problem"
+                android:inputType="textCapSentences|textMultiLine"
+                android:maxLength="2000"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:maxLines="15" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/dodaj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dodaj wątek" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

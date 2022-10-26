@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "83439918795",
+    "project_id": "wirtualna-przychodnia",
+    "storage_bucket": "wirtualna-przychodnia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83439918795:android:5e3dbd46a8e9a598a9054e",
+        "android_client_info": {
+          "package_name": "com.example.wirtualnaprzychodnia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83439918795-4utsk7ctj3and6pkcviq2kfenan7tc0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiXgGF-_FdAIZepLEkTRW1dwMDTQ04l5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83439918795-4utsk7ctj3and6pkcviq2kfenan7tc0h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

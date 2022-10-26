@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TematyForum"
+    android:background="@drawable/blekitne"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearwyszukiwanie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/fraza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/white"
+                android:inputType="textPersonName"
+                 />
+
+            <Button
+                android:id="@+id/szukaj"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Szukaj" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/dodawanie_tematu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dodawanie tematu"
+            android:layout_below="@id/linearwyszukiwanie"/>
+
+        <Button
+            android:id="@+id/wyszukiwanie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dodawanie_tematu"
+            android:text="Wyszukiwanie " />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerforum"
+            android:layout_below="@id/wyszukiwanie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/temat_forum" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

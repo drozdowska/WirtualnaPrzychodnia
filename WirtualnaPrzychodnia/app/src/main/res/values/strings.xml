@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">WirtualnaPrzychodnia</string>
+    <string name="zaloguj">Masz już konto? Przejdź do logowania</string>
+    <string name="zaloguj2">Zaloguj się</string>
+    <string name="rejestracja">Zarejestruj się</string>
+    <string name="rejestracja2">Nie masz konta? Zarejestruj się</string>
+    <string name="imie">Imię</string>
+    <string name="nazwisko">Nazwisko</string>
+    <string name="email">E-mail</string>
+    <string name="telefon">Numer telefonu</string>
+    <string name="nick">Nazwa użytkownika</string>
+    <string name="haslo">Hasło</string>
+    <string name="powtorzhaslo">Powtórz hasło</string>
+    <string name="obecnehaslo">Wprowadź obecne hasło</string>
+
+    <string name="puste_pole">Pole nie może być puste</string>
+    <string name="rejestracja_puste_imie">Proszę o wpisanie imienia</string>
+    <string name="rejestracja_puste_nazwisko">Proszę o wpisanie nazwiska</string>
+    <string name="rejestracja_puste_email">Proszę o wpisanie e-maila</string>
+    <string name="rejestracja_puste_telefon">Proszę o wpisanie numeru telefonu</string>
+    <string name="rejestracja_puste_nick">Proszę o wpisanie nazwy użytkownika</string>
+    <string name="rejestracja_puste_haslo">Proszę o wpisanie hasła</string>
+    <string name="rejestracja_puste_haslo2">Proszę o wpisanie powtórzenia hasła</string>
+    <string name="rejestracja_bledne_imie">Proszę o poprawne wpisanie imienia</string>
+    <string name="rejestracja_bledne_nazwisko">Proszę o poprawne wpisanie nazwiska</string>
+    <string name="rejestracja_bledne_email">Proszę o poprawne wpisanie e-maila</string>
+    <string name="rejestracja_bledne_telefon">Proszę o poprawne wpisanie numeru telefonu</string>
+    <string name="rejestracja_bledne_nick">Podany nick już istnieje. Proszę o wprowadzenie innego.</string>
+    <string name="rejestracja_bledne_haslo">Hasło musi mieć od 9 do 32 znaków, w tym 1 literę wielką, 1 literę małą, 1 cyfrę i 1 znak specjalny spośród następujących:  @$%*?#^() </string>
+    <string name="rejestracja_bledne_haslo2">Podane hasła muszą być identyczne</string>
+    <string name="zalozenie_nie_powiodlo_sie">Założenie konta nie powiodło się</string>
+    <string name="zalozenie_powiodlo_sie">Konto zostało pomyślnie założone</string>
+
+
+
+</resources>
